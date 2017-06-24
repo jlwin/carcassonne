@@ -5,7 +5,7 @@ $(document).ready(function() {
     var expansionsJSON = data;
     $.each(expansionsJSON.expansions, (key, value) => {
       $('#expansions-list').append(
-        '<input type="checkbox" value="' + key + '"> ' + key + '<br>'
+        '<input type="checkbox" value="' + value.eng + '"> ' + value.eng + '<br>'
       );
     })
   });

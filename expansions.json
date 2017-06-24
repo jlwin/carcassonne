@@ -3,15 +3,71 @@
     "River",
     "Kloester"
   ],
-  "expansions": {
-    "River 1": {
+  "expansions": [
+    {
+      "eng": "River 1",
+      "ger": "Fluss 1",
       "group": "River"
     },
-    "River 2": {
+    {
+      "eng": "River 2",
+      "ger": "Fluss 2",
       "group": "River"
     },
-    "The Count of Carcassonne": {
+    {
+      "eng": "The Count of Carcassonne",
+      "ger": "Der Graph von Carcassonne",
+      "group": false
+    },
+    {
+      "eng": "King & Scout",
+      "ger": "König und Späher",
+      "group": false
+    },
+    {
+      "eng": "Inns & Cathedrals",
+      "ger": "Wirtshäuser & Kathedralen",
+      "group": false
+    },
+    {
+      "eng": "Traders & Builders",
+      "ger": "Händler & Baumeister",
+      "group": false
+    },
+    {
+      "eng": "The Princess & the Dragon",
+      "ger": "Prinzessin & Drache",
+      "group": false
+    },
+    {
+      "eng": "The Tower",
+      "ger": "Der Turm",
+      "group": false
+    },
+    {
+      "eng": "The Abbey & the Mayor",
+      "ger": "Abtei & Bürgermeister",
+      "group": false
+    },
+    {
+      "eng": "The Catapult",
+      "ger": "Das Katapult",
+      "group": false
+    },
+    {
+      "eng": "Bridges, Castles & Bazaars",
+      "ger": "Brücken, Burgen & Basare",
+      "group": false
+    },
+    {
+      "eng": "Wheel of Fortune",
+      "ger": "Schicksalsrad",
+      "group": false
+    },
+    {
+      "eng": "Count, King & Robber",
+      "ger": "Graph, König & Konsorten",
       "group": false
     }
-  }
+  ]
 }
