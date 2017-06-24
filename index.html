@@ -3,10 +3,70 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./general.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Carcassonne Utilities</title>
   </head>
   <body>
-    <h1>Carcassonne Utilities</h1>
-    <p>Content will be placed here.</p>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Carcassonne Utilities</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in">Home</a></li>
+            <li><a href="#about" data-toggle="collapse" data-target=".navbar-collapse.in">About</a></li>
+            <li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!-- /navbar -->
+
+    <!-- main content -->
+    <div class="container main-content">
+      <div>
+        <h1>Carcassonne Utilities</h1>
+        <p></p>
+        <p>Select all the expansions that you are owning:</p>
+        <p>
+          <input type="checkbox" name="river1" value="River 1"> River 1<br>
+          <input type="checkbox" name="river2" value="River 2"> River 2<br>
+          <input type="checkbox" name="countofcarcassonne" value="The Count of Carcassonne"> The Count of Carcassonne<br>
+        </p>
+        <p>How many Expansions do you want to play with? <input type="number" name="numToPlayWith" min="1" max="5"/></p>
+        <p><button type="button" class="btn btn-default" id="select-expansions">Select Expansions</button></p>
+        <p>
+          Randomly selected expansions:
+          <div>
+            <ul id="selected-expansions"></ul> <!-- to be filled after clicking the button -->
+          </div>
+        </p>
+
+      </div>
+      <div id="about">
+        <h2>About</h2>
+        <p>This is the about section.</p>
+      </div>
+      <div id="contact">
+        <h2>Contact</h2>
+        <p>Get in contact.</p>
+      </div>
+    </div><!-- /.container -->
+    <!-- /main content -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./bootstrap.min.js"></script>
+    <script src="./select-expansions.js"></script>
   </body>
 </html>
