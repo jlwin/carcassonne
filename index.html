@@ -38,11 +38,9 @@
         <h1>Carcassonne Utilities</h1>
         <p></p>
         <p>Select all the expansions that you are owning:</p>
-        <p>
-          <input type="checkbox" name="river1" value="River 1"> River 1<br>
-          <input type="checkbox" name="river2" value="River 2"> River 2<br>
-          <input type="checkbox" name="countofcarcassonne" value="The Count of Carcassonne"> The Count of Carcassonne<br>
-        </p>
+        <div id="expansions-list">
+          <!-- to be filled onload based on JSON data -->
+        </div>
         <p>How many Expansions do you want to play with? <input type="number" name="numToPlayWith" min="1" max="5"/></p>
         <p><button type="button" class="btn btn-default" id="select-expansions">Select Expansions</button></p>
         <p>
@@ -67,6 +65,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="./bootstrap.min.js"></script>
+    <script src="./onload.js"></script>
     <script src="./select-expansions.js"></script>
   </body>
 </html>

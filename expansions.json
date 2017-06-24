@@ -1,0 +1,17 @@
+{
+  "groups": [
+    "River",
+    "Kloester"
+  ],
+  "expansions": {
+    "River 1": {
+      "group": "River"
+    },
+    "River 2": {
+      "group": "River"
+    },
+    "The Count of Carcassonne": {
+      "group": false
+    }
+  }
+}
