@@ -1,3 +1,8 @@
+$('#check-all-expansions').click(function() {
+   $(':checkbox').checked();
+})
+
+
 $('#select-expansions').click(function() {
     console.log(getCheckedExtensions());
     console.log(getNumToPlayWith());

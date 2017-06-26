@@ -1,7 +1,11 @@
 {
   "groups": [
     "River",
-    "Kloester"
+    "King",
+    "Cathars",
+    "Corn Circles",
+    "Monastery",
+    "Half"
   ],
   "expansions": [
     {
@@ -15,14 +19,34 @@
       "group": "River"
     },
     {
+      "eng": "Games Quarterly #11",
+      "ger": "Games Quarterly #11",
+      "group": "River"
+    },
+    {
+      "eng": "Count, King & Robber",
+      "ger": "Graph, König & Konsorten",
+      "group": "King"
+    },
+    {
       "eng": "The Count of Carcassonne",
       "ger": "Der Graph von Carcassonne",
-      "group": false
+      "group": "King"
     },
     {
       "eng": "King & Scout",
       "ger": "König und Späher",
-      "group": false
+      "group": "King"
+    },
+    {
+      "eng": "Cult, Siege & Creativity",
+      "ger": "Cult, Siege & Creativity",
+      "group": "King"
+    },
+    {
+      "eng": "Cult (5)",
+      "ger": "Die Kultstätten",
+      "group": "King"
     },
     {
       "eng": "Inns & Cathedrals",
@@ -61,12 +85,167 @@
     },
     {
       "eng": "Wheel of Fortune",
-      "ger": "Schicksalsrad",
+      "ger": "Das Schicksalsrad",
       "group": false
     },
     {
-      "eng": "Count, King & Robber",
-      "ger": "Graph, König & Konsorten",
+      "eng": "The Cathars (spielbox, 4)",
+      "ger": "Die Katharer (spielbox, 4)",
+      "group": "Cathars"
+    },
+    {
+      "eng": "The Cathars (Hans im Glück, 6)",
+      "ger": "Die Belagerer (Hans im Glück, 6)",
+      "group": "Cathars"
+    },
+    {
+      "eng": "The Tunnel",
+      "ger": "Der Tunnel",
+      "group": false
+    },
+    {
+      "eng": "Corn Circles 1",
+      "ger": "Die Kornkreise 1",
+      "group": "Corn Circles"
+    },
+    {
+      "eng": "Corn Circles 2 (from 6 mini extensions)",
+      "ger": "Die Kornkreise 2 (aus 6 Minierweiterungen)",
+      "group": "Corn Circles"
+    },
+    {
+      "eng": "The Plague",
+      "ger": "Die Pest",
+      "group": false
+    },
+    {
+      "eng": "Phantom",
+      "ger": "Das Gefolge",
+      "group": false
+    },
+    {
+      "eng": "The School",
+      "ger": "Die Schule",
+      "group": false
+    },
+    {
+      "eng": "The Flying Machines",
+      "ger": "Die Fluggeräte",
+      "group": false
+    },
+    {
+      "eng": "The Messengers",
+      "ger": "Die Depeschen",
+      "group": false
+    },
+    {
+      "eng": "The Ferries",
+      "ger": "Die Fähren",
+      "group": false
+    },
+    {
+      "eng": "The Gold Mines",
+      "ger": "Die Goldminen",
+      "group": false
+    },
+    {
+      "eng": "Mage & Witch",
+      "ger": "Magier & Hexe",
+      "group": false
+    },
+    {
+      "eng": "The Robbers",
+      "ger": "Die Räuber",
+      "group": false
+    },
+    {
+      "eng": "Compass Dial (spielbox)",
+      "ger": "Die Windrosen (spielbox)",
+      "group": "Compass"
+    },
+    {
+      "eng": "Compass Dial (Hans im Glück)",
+      "ger": "Die Windrosen (Hans im Glück)",
+      "group": "Compass"
+    },
+    {
+      "eng": "The Festival",
+      "ger": "Das Fest",
+      "group": false
+    },
+    {
+      "eng": "Hills & Sheep",
+      "ger": "Schafe & Hügel",
+      "group": false
+    },
+    {
+      "eng": "German Monasteries",
+      "ger": "Die deutschen Klöster",
+      "group": "Monastery"
+    },
+    {
+      "eng": "De kloosters",
+      "ger": "De kloosters",
+      "group": "Monastery"
+    },
+    {
+      "eng": "Japanese Buildings",
+      "ger": "Japanische Bauwerke",
+      "group": "Monastery"
+    },
+    {
+      "eng": "Half as wild 1 (spielbox)",
+      "ger": "Halb so wild 1 (spielbox)",
+      "group": "Half"
+    },
+    {
+      "eng": "Half as wild 2 (Hans im Glück)",
+      "ger": "Halb so wild 2 (Hans im Glück)",
+      "group": "Half"
+    },
+    {
+      "eng": "Darmstadt",
+      "ger": "Darmstadt spielt",
+      "group": false
+    },
+    {
+      "eng": "German Castles",
+      "ger": "Burgen in Deutschland",
+      "group": false
+    },
+    {
+      "eng": "Russian Expansion (Baba Jaga)",
+      "ger": "Hütte von Baba Jaga & Recke auf Pferd",
+      "group": false
+    },
+    {
+      "eng": "labyrinth",
+      "ger": "Das Labyrinth",
+      "group": false
+    },
+    {
+      "eng": "The Cathedrals in Germany",
+      "ger": "Die Kathedralen in Deutschland",
+      "group": false
+    },
+    {
+      "eng": "The Watchtower",
+      "ger": "Die Wachtürme",
+      "group": false
+    },
+    {
+      "eng": "Under the Big Top",
+      "ger": "Manege Frei",
+      "group": false
+    },
+    {
+      "eng": "The Houses",
+      "ger": "Die Häuser",
+      "group": false
+    },
+    {
+      "eng": "Spiel'14-16",
+      "ger": "Spiel'14-16",
       "group": false
     }
   ]
