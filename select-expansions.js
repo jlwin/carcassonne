@@ -2,13 +2,13 @@ $("#check-all-expansions").attr("data-type","check");
 $("#check-all-expansions").click(function(){
   if($("#check-all-expansions").attr("data-type")==="check")
         {
-          $(".first").prop("checked",true); 
+          $(".expansion").prop("checked",true); 
     $("#check-all-expansions").attr("data-type","uncheck");
               $(this).val('Uncheck all Expansions')
         }
       else
         {
-          $(".first").prop("checked",false);
+          $(".expansion").prop("checked",false);
       $("#check-all-expansions").attr("data-type","check");
               $(this).val('Check all Expansions');
         }
