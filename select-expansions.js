@@ -1,5 +1,5 @@
 $('#check-all-expansions').click(function() {
-   $(':checkbox').checked();
+   $(':checkbox.checkItem').prop('checked', this.checked);    
 })
 
 
